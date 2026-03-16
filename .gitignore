@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# 虚拟环境
+.venv/
+venv/
+env/
+.env
+*.env.local
+
+# 测试 & 覆盖率
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ML 模型文件（体积较大，不纳入版本控制）
+ml_training/models/
+*.pt
+*.pth
+*.onnx
+
+# GeoIP 数据库
+data/
+
+# 日志
+*.log
+logs/
+
+# Docker
+docker/.env
+
+# Alembic 自动生成的临时文件
+*.pyc
